@@ -1,3 +1,4 @@
 bunch of stuffs leverage nextjs api route
 
 /api/pdf: download my resume, printing from re.sume.
+/api/favicon?user=[your-github-username]&size=[48,64,128,256]: nice little rounded favicon
