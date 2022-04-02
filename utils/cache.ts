@@ -7,8 +7,8 @@ const CACHE_MAX_SIZE = 50; //mb
 const CACHE_MAX_AGE = 24 * 60 * 60 * 1000; //second
 
 const lruCache = new LRU<string, Buffer>({
-  max: CACHE_MAX_AGE,
-  maxAge: CACHE_MAX_SIZE,
+  max: CACHE_MAX_SIZE,
+  maxAge: CACHE_MAX_AGE,
 });
 
 interface CachedRequestHandler {
